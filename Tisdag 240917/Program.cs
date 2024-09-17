@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Welcome to the drakey game");
+            Console.WriteLine("Choose name bro");
+            string userNick = Console.ReadLine();
+            Console.WriteLine($"Hälsningar drakey, enjoy {userNick}!");
         }
     }
 }
